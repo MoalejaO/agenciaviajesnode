@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block slider 
+    .slider 
+        h1 Rio de Jainero 
+        em aventura 
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.md-6 
+
+            .col-md-6 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aliquid veniam, quae veritatis explicabo expedita dolorem? Id quod similique dolore, ullam corrupti architecto, blanditiis facilis dolorum, sapiente tenetur inventore ipsam.
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae cupiditate nemo dolore mollitia natus doloremque itaque libero delectus sint quis iste alias possimus, sequi nobis eum et, veniam ea.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+        
+        include ./layout/bloque_viajes
+
+    .descuento
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo de 2026 - 28 de marzo de 2026
+                        p.precio $2,500 USD 
+    .container 
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales 

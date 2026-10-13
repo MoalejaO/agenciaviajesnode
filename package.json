@@ -1,0 +1,23 @@
+{
+  "name": "agenciasviajes",
+  "version": "1.0.0",
+  "description": "Primer proyecto con node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Maria Osorio",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.4",
+    "pug": "^3.0.4",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
